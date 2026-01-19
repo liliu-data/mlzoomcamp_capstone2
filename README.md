@@ -73,7 +73,7 @@ To further improve this diagnostic tool, the following enhancements are planned:
 ---
 
 ## 🛠 How to Test
-1. **Endpoint:** `POST https://your-api-gateway-url.amazonaws.com/predict`
+1. **Endpoint:** `POST https://kl8xrog7b0.execute-api.us-west-1.amazonaws.com/prod`
 2. **Payload:**
 ```json
 {
