@@ -14,6 +14,24 @@ The dataset consists of high-resolution MRI images. Key findings from the EDA in
 
 ---
 
+## 🧪 Model Selection & Comparison
+To ensure the highest diagnostic accuracy, I compared three different architectural approaches. The evaluation focused on the trade-off between classification accuracy and computational cost.
+
+
+
+| Model Architecture | Accuracy (%) | Total Training Time (s) |
+| :--- | :--- | :--- |
+| **SVM (Baseline)** | ~75% | ~440s |
+| **Vanilla CNN** | ~93% | ~910s |
+| **ResNet-50** | **~99%** | **~990s** |
+
+![Model Comparison](./modelcomparison.png)
+
+### Why ResNet-50?
+While ResNet-50 required the most training time (~990s), its **~99% accuracy** made it the clear choice for a medical application where precision is paramount. The use of **Residual Blocks** (skip connections) allowed the model to train deeper without the vanishing gradient problem, capturing subtle patterns in MRI textures that the SVM and Vanilla CNN missed.
+
+---
+
 ## 🧠 Training Process Summary
 The model utilizes a transfer learning approach to maximize feature extraction from medical imaging.
 * **Architecture:** ResNet-50 (Pre-trained on ImageNet) with a customized 4-class output layer.
