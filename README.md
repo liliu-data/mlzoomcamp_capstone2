@@ -8,7 +8,6 @@ Alzheimer's Disease is a progressive neurodegenerative disorder and the leading 
 ## 🔍 Exploratory Data Analysis (EDA)
 The dataset consists of high-resolution MRI images. Key findings from the EDA include:
 * **Class Imbalance:** A significant disparity exists between classes (e.g., Non-Demented vs. Moderate Demented). This was addressed by monitoring F1-scores rather than just accuracy.
-* **Structural Visual Markers:** Analysis showed that cortical thinning and ventricular enlargement were the primary features differentiating the classes.
 * **Data Normalization:** Scans were standardized to $224 \times 224$ pixels, and pixel intensity distributions were analyzed to ensure consistent normalization across the training set.
 
 
