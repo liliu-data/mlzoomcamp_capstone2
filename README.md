@@ -4,7 +4,7 @@
 Alzheimer's Disease is a progressive neurodegenerative disorder and the leading cause of dementia worldwide. Early and accurate detection is critical for patient management and slowing progression. This project automates the classification of MRI scans into four stages: **Non-Demented, Very Mild Demented, Mild Demented, and Moderate Demented**. By leveraging Deep Learning and Cloud Computing, this project provides a scalable, serverless solution for rapid medical image screening.
 
 **Notebooks**:
-* **EDA** ['https://colab.research.google.com/drive/15yahKvYVp2JTceo1OpqNMUL9ckdWhvUN?usp=sharing']
+* **EDA**: https://colab.research.google.com/drive/15yahKvYVp2JTceo1OpqNMUL9ckdWhvUN?usp=sharing
 * **Model Comparison**: https://colab.research.google.com/drive/145pOll62zfhtZITWs7636RFB7Y4ZQNa0?usp=sharing
 * **ResNet Model Training**: https://colab.research.google.com/drive/14a1KVh3QN4J9J7qXBhs5jFIISPpuFqK0?usp=sharing
 
